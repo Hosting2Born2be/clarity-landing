@@ -3,7 +3,7 @@ import { z } from "zod";
 export const ContactFormSchema = z.object({
   fullName: z.string().nonempty("Full name is required"),
   telegramUser: z.string().optional(),
-  phone: z.string().nonempty("Phone number is required"),
+  phone: z.string().optional(),
   email: z.string().email("Invalid email address"),
   companyName: z.string().nonempty("Company name is required"),
   industry: z.string().nonempty("Industry is required"),
