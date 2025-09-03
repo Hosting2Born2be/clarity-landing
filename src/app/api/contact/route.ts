@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { google } from "googleapis";
+import { getCountryNameByCode } from "@/shared/lib/helpers/countryNames";
 
 type ContactFormData = {
   fullName: string;
@@ -36,7 +37,11 @@ export async function POST(request: Request): Promise<NextResponse> {
       range: 'Sheet1!A:A',
     });
 
-    const rowCount = (response.data.values?.length || 0);
+    // Підраховуємо наступний номер рядка (враховуємо заголовки)
+    const rowCount = (response.data.values?.length || 1);
+    
+    // Конвертуємо ISO код країни в повну назву
+    const countryName = getCountryNameByCode(country);
     
     // Підготовка даних для додавання
     const values = [
@@ -49,7 +54,7 @@ export async function POST(request: Request): Promise<NextResponse> {
         companyName, // Company Name
         industry, // Industry
         website || '', // Website (порожній рядок якщо не вказано)
-        country, // Country
+        countryName, // Country (повна назва замість ISO коду)
       ]
     ];
 
