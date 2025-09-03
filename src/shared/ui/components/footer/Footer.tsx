@@ -24,7 +24,7 @@ export const Footer = () => {
             <p>Smart electronic moneysolution in your pocket.</p>
           </div>
           <div className={styles.footer__col2}>
-            <Link href="#">
+            <Link href="https://clarityglobalinc.com/" target="_blank">
               <Image
                 src="/website.svg"
                 alt="instagram"
@@ -34,7 +34,7 @@ export const Footer = () => {
               />
               Our Website
             </Link>
-            <Link href="#">
+            <Link href="https://clarityglobalinc.com/privacy-policy.html" target="_blank">
               <Image
                 src="/privacy.svg"
                 alt="instagram"
