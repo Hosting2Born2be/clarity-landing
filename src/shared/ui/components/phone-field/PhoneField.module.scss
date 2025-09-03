@@ -1,0 +1,112 @@
+.phoneField {
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 16px !important;
+  line-height: 140%;
+  border-radius: 0 24px 24px 0 !important;
+  background: #fff !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+  transition: all 300ms ease-in-out;
+  border: 0 !important;
+  height: 46px !important;
+  flex: 1;
+  padding: 0 12px 0 12px !important;
+  border: 1px solid #dcdcdc !important;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.dropdown {
+  height: 100%;
+  border: 0 !important;
+  background: #fff !important;
+  padding-right: 0 !important;
+  padding-left: 12px !important;
+  border-radius: 24px 0 0 24px !important;
+}
+
+
+.container {
+  border-radius: 24px !important;
+  background: #fff !important;
+
+  input {
+    height: 100% !important;
+  }
+}
+
+.smContainer {
+  height: 46px !important;
+
+  button {
+    height: 46px !important; // 52
+  }
+}
+
+.mdContainer {
+  height: 46px !important;
+
+  button {
+    height: 46px !important;
+  }
+}
+
+.dropdownList {
+  outline: none !important;
+  width: 283px !important;
+  background: #fff !important;
+  color: #fff !important;
+  li {
+    color: #000 !important;
+    &:hover {
+      background: #F85C3A !important;
+      color: #000 !important;
+      span {
+        color: #000 !important;
+      }
+    }
+  }
+}
+
+.arrow {
+  border: 0 !important;
+  margin: 0 !important;
+  background: url('/images/chevron-down.svg') no-repeat !important;
+  background-position: center !important;
+  width: 16px;
+  height: 16px;
+  transition: all 0.3s ease-out;
+}
+
+.layout {
+  position: relative;
+  width: 100%;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.dangerIntent {
+  border-right: 1px solid #ff5c5c !important;
+  border-bottom: 1px solid #ff5c5c !important;
+  border-top: 1px solid #ff5c5c !important;
+}
+
+.dropdownDangerIntent {
+  border-left: 1px solid #ff5c5c !important;
+  border-bottom: 1px solid #ff5c5c !important;
+  border-top: 1px solid #ff5c5c !important;
+}
+
+.hint {
+  color: #ff5c5c;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: -22px;
+}

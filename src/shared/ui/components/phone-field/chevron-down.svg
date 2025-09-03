@@ -1,0 +1,163 @@
+<?php
+
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package adhitan
+ */
+
+?>
+
+<footer id="colophon" class="site-footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="foot-info">
+                    <a href="/">
+                        <img src="https://adhitan.io/wp-content/uploads/2023/02/Logo-white.svg">
+                    </a>
+                    <span>Lumvios Limited — top-tier trading education for all levels.</span>
+					<div class="payments">
+						<img src="/wp-content/uploads/2024/07/mc-01.svg">
+						<img src="/wp-content/uploads/2024/10/visa-01-1.svg">
+					</div>
+                    <span class="rights mob-hidden">All Rights Reserved.<br>© <?php echo date("Y"); ?></span>
+                </div>
+            </div>
+            <div class="col-12 dt-hidden">
+                <div class="foot-cont ">
+
+                    <div class="phone-foot">
+                        <a href="tel:+447446976749">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.14286 0.0407084C4.38572 0.0203543 4.59389 0.0793815 4.72858 0.301243C5.03063 0.789744 5.33472 1.27825 5.62248 1.77896C5.95513 2.35702 6.26126 2.95136 6.5878 3.53553C6.67147 3.69226 6.7878 3.83474 6.88576 3.98536C6.97556 4.12784 7.06128 4.27439 7.14495 4.41687C7.31638 4.7405 7.30822 5.06617 7.05311 5.32467C6.68984 5.69511 6.28983 6.0391 5.90411 6.39123C5.58166 6.68637 5.24696 6.96929 4.93267 7.27053C4.68777 7.50664 4.6245 7.80178 4.78981 8.1132C5.04492 8.58949 5.29798 9.06577 5.57758 9.53189C6.61433 11.2559 7.93884 12.7214 9.61234 13.8511C10.2572 14.2887 10.9287 14.6896 11.6063 15.0723C12.245 15.4326 12.494 15.3715 12.9899 14.8199C13.4512 14.309 13.8961 13.79 14.3553 13.275C14.4655 13.1509 14.5981 13.041 14.7267 12.9351C14.9879 12.7153 15.2737 12.6909 15.5737 12.8415C15.6573 12.8822 15.7471 12.9188 15.8206 12.9718C16.6165 13.5396 17.5064 13.9406 18.3472 14.423C18.7982 14.6815 19.237 14.9583 19.6799 15.2229C19.9186 15.3634 20.0146 15.569 19.9982 15.8519C19.9533 16.6477 19.8207 17.4293 19.3574 18.101C19.1635 18.3799 18.888 18.6241 18.6105 18.8216C17.8411 19.3589 16.9819 19.6907 16.0676 19.8942C15.2369 20.0795 14.4083 20.0123 13.6124 19.764C12.0756 19.2917 10.5613 18.7503 9.16743 17.93C7.90211 17.183 6.75107 16.2814 5.68574 15.2738C4.33674 13.9935 3.13264 12.5972 2.15915 11.0076C1.52445 9.97561 1.07138 8.86427 0.661168 7.73054C0.412184 7.04664 0.167282 6.36884 0.0570761 5.64423C-0.0694567 4.82395 0.0182999 4.03421 0.28157 3.25668C0.518308 2.55446 0.814232 1.88277 1.26118 1.28232C1.6122 0.816205 2.05099 0.474254 2.61834 0.321597C3.07345 0.201507 3.53265 0.105842 3.9898 0C4.04898 0.0468148 4.09592 0.0468148 4.14286 0.0407084Z" fill="#FF693D" />
+                            </svg>
+
+                            +447446976749</a>
+                        <a href="mailto:office@adhitan.io">
+                            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0 2.77536C0 2.77536 9.65952 8.25302 11.5344 8.25302C13.4995 8.25302 23.0544 2.88 23.0544 2.88L23.0698 1.92C23.0698 0.86016 22.2096 0 21.1469 0H1.92192C0.86016 0 0 0.86016 0 1.92V2.77536ZM23.0544 5.76C23.0544 5.76 13.5898 10.893 11.5344 10.893C9.65952 10.893 0.0144 5.76 0.01536 5.76L0 17.28C0 18.3398 0.86112 19.2 1.92192 19.2H21.1469C22.2096 19.2 23.0698 18.3398 23.0698 17.28L23.0544 5.76Z" fill="#FF693D" />
+                            </svg>
+                            office@adhitan.io</a>
+                    </div>
+
+                    <div class="soc-foot">
+                        <a class="fb" href="https://www.facebook.com/adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/02/Facebook-1.svg">
+                        </a>
+                        <a class="inst" href="https://www.instagram.com/adhitansocials/" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Instagram-1.svg">
+                        </a>
+                        <a class="twitter" href="https://twitter.com/adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/02/Twitter-1.svg">
+                        </a>
+                        <a class="youtube" href="https://www.youtube.com/@adhitan" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Youtube-2.svg">
+                        </a>
+                        <a class="tiktok" href="https://www.tiktok.com/@adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Youtube-4.svg">
+                        </a>
+						<a class="whatsapp" href="https://wa.me/447443800606" target="_blank">
+							<img src="/wp-content/uploads/2025/07/Group-81455.svg">
+						</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="foot-menu-wrap">
+                    <h3>
+                        Menu
+                    </h3>
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'main-menu',
+                            'container_class' => 'footer-main-menu'
+                        )
+                    );
+                    ?>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-2">
+                <div class="foot-menu-wrap">
+                    <h3>
+                        Legal
+                    </h3>
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'legal-menu'
+                        )
+                    );
+                    ?>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="foot-menu-wrap">
+                    <h3>
+                        Office
+                    </h3>
+                    <ul>
+                        <li>Registered address: Suite 159, 981 Great West Rd, Brentford, United Kingdom, TW8 9DN</li>
+                    </ul>
+
+                    <span class="rights dt-hidden">
+                        All Rights Reserved. © <?php $current_year = date('Y'); echo $current_year; ?>
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 mob-hidden">
+                <div class="foot-cont">
+
+                    <div class="phone-foot">
+                        <a href="tel:+447446976749">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.14286 0.0407084C4.38572 0.0203543 4.59389 0.0793815 4.72858 0.301243C5.03063 0.789744 5.33472 1.27825 5.62248 1.77896C5.95513 2.35702 6.26126 2.95136 6.5878 3.53553C6.67147 3.69226 6.7878 3.83474 6.88576 3.98536C6.97556 4.12784 7.06128 4.27439 7.14495 4.41687C7.31638 4.7405 7.30822 5.06617 7.05311 5.32467C6.68984 5.69511 6.28983 6.0391 5.90411 6.39123C5.58166 6.68637 5.24696 6.96929 4.93267 7.27053C4.68777 7.50664 4.6245 7.80178 4.78981 8.1132C5.04492 8.58949 5.29798 9.06577 5.57758 9.53189C6.61433 11.2559 7.93884 12.7214 9.61234 13.8511C10.2572 14.2887 10.9287 14.6896 11.6063 15.0723C12.245 15.4326 12.494 15.3715 12.9899 14.8199C13.4512 14.309 13.8961 13.79 14.3553 13.275C14.4655 13.1509 14.5981 13.041 14.7267 12.9351C14.9879 12.7153 15.2737 12.6909 15.5737 12.8415C15.6573 12.8822 15.7471 12.9188 15.8206 12.9718C16.6165 13.5396 17.5064 13.9406 18.3472 14.423C18.7982 14.6815 19.237 14.9583 19.6799 15.2229C19.9186 15.3634 20.0146 15.569 19.9982 15.8519C19.9533 16.6477 19.8207 17.4293 19.3574 18.101C19.1635 18.3799 18.888 18.6241 18.6105 18.8216C17.8411 19.3589 16.9819 19.6907 16.0676 19.8942C15.2369 20.0795 14.4083 20.0123 13.6124 19.764C12.0756 19.2917 10.5613 18.7503 9.16743 17.93C7.90211 17.183 6.75107 16.2814 5.68574 15.2738C4.33674 13.9935 3.13264 12.5972 2.15915 11.0076C1.52445 9.97561 1.07138 8.86427 0.661168 7.73054C0.412184 7.04664 0.167282 6.36884 0.0570761 5.64423C-0.0694567 4.82395 0.0182999 4.03421 0.28157 3.25668C0.518308 2.55446 0.814232 1.88277 1.26118 1.28232C1.6122 0.816205 2.05099 0.474254 2.61834 0.321597C3.07345 0.201507 3.53265 0.105842 3.9898 0C4.04898 0.0468148 4.09592 0.0468148 4.14286 0.0407084Z" fill="#FF693D" />
+                            </svg>
+
+                            +447446976749</a>
+                        <a href="mailto:office@adhitan.io">
+                            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0 2.77536C0 2.77536 9.65952 8.25302 11.5344 8.25302C13.4995 8.25302 23.0544 2.88 23.0544 2.88L23.0698 1.92C23.0698 0.86016 22.2096 0 21.1469 0H1.92192C0.86016 0 0 0.86016 0 1.92V2.77536ZM23.0544 5.76C23.0544 5.76 13.5898 10.893 11.5344 10.893C9.65952 10.893 0.0144 5.76 0.01536 5.76L0 17.28C0 18.3398 0.86112 19.2 1.92192 19.2H21.1469C22.2096 19.2 23.0698 18.3398 23.0698 17.28L23.0544 5.76Z" fill="#FF693D" />
+                            </svg>
+                            office@adhitan.io</a>
+                    </div>
+
+                    <div class="soc-foot">
+                        <a class="fb" href="https://www.facebook.com/adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/02/Facebook-1.svg">
+                        </a>
+                        <a class="inst" href="https://www.instagram.com/adhitansocials/" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Instagram-1.svg">
+                        </a>
+                        <a class="twitter" href="https://twitter.com/adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/02/Twitter-1.svg">
+                        </a>
+                        <a class="youtube" href="https://www.youtube.com/@adhitan" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Youtube-2.svg">
+                        </a>
+                        <a class="tiktok" href="https://www.tiktok.com/@adhitansocials" target="_blank">
+                            <img src="https://adhitan.io/wp-content/uploads/2023/03/Youtube-4.svg">
+                        </a>
+						<a class="whatsapp" href="https://wa.me/447443800606" target="_blank">
+							<img src="/wp-content/uploads/2025/07/Group-81455.svg">
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+
+</html>
