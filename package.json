@@ -30,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-select-country-list": "^2.2.3",
     "typescript": "^5"
   }
 }
